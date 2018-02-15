@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=0"/>
+    <title></title>
+
+     <link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/klml/usefulclassroomphrases/5981aaf86e346de94a42b31f741c5031380c3add/ucp.css">
+     <link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/klml/usefulclassroomphrases/5981aaf86e346de94a42b31f741c5031380c3add/example.local.css">
+
+<style>
+input {
+    border: 0 solid #fff;
+}
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+    width: 200px;  
+}
+#qrcodeurl {
+    float: right;
+    height: 192px;
+    margin: 5px 5px 0 0;
+}
+</style>
+
+</head>
+<body>
+    <div id="panel">
+        <div id="qrcodeurl"></div>
+        <div id="content"></div>
+        <div class="noprint">
+            <fieldset>
+                <legend>not printed</legend>
+                Print QR Code <input id="fcqr" name="fcqr" type="checkbox" checked="checked" />
+                <br />
+                <a href="https://github.com/klml/formcradle/" class="right" >github.com/klml/formcradle/</a>
+            </fieldset>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/g/jquery@2.1.4,js-markdown-extra@1.2.4"></script>
+
+    <script src="//cdn.rawgit.com/davidshimjs/qrcodejs/master/qrcode.min.js"></script>
+    <script src="//cdn.rawgit.com/klml/hashsplit/master/hashsplit.js" type="text/javascript"></script>
+    <script src="./formcradle.js" type="text/javascript"></script>
+
+</body>
+</html>
