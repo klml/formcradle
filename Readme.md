@@ -28,7 +28,7 @@ With the additional hash parameter `&fcqr=` (default `true`) you can swoitch the
 ## Examplesforms
 
 * [german nda](https://klml.github.io/formcradle/?form=forms/nda_de.md) from [bsi.bund.de](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Hilfsmittel/Muster/vertraulichkeitsvereinbarung_pdf.pdf?__blob=publicationFile&v=2 )
-
+* are you tired of writing your IBAN? Use [german sepamandate](https://klml.github.io/formcradle/?form=forms/sepamandate_de.md) and c&p your IBAN, print it, sign it and scan it again.
 
 
 Using [hashsplit](https://github.com/klml/hashsplit) to prefill forms or hand over datasets.
