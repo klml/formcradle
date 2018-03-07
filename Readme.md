@@ -7,7 +7,7 @@
 
 __formcradle__ is a online tool to fill in common forms (terminations, NDAs, etc) and print it local or as pdf.
 Or send values as key-values url with updated fragment identifier (`#hash`) via mail.
-Or scan the printed QR, even on [desktops](//www.the-qrcode-generator.com/scan) code and get the filled form again in your browser. 
+Or scan the printed QR code, even on [desktops](//www.the-qrcode-generator.com/scan) and get the filled form again in your browser.
 
 [Example](//klml.github.io/formcradle/?form=forms/nda_de.md#ag=Example%20AG&an=Max%20Muster&stra%C3%9Fe_an=Fakestreet%20123&plz_an=12345&ort_an=Musterstadt&verteten=Maximilian%20Mustermann&auftrag=Rollout%20Formularcenter&gericht=Berlin&ort_ag=M%C3%BCnchen&datum_ag=&ort_an_sub=Berlin&datum_an=2018-02-22
 )
