@@ -27,6 +27,13 @@ dabei die mit meinem Kreditinstitut vereinbarten Bedingungen
 <label for="schuldneradress" class="row2" >Adresse</label>
 <input id="adress" name="schuldneradress" type="text" class="row2" />  
 
+<label for="plz" class="row2" >PLZ</label>
+<input id="plz" name="plz" type="text" class="row2" />
+
+<label for="ort" class="row2" >Ort</label>
+<input id="ort" name="ort" type="text" class="row2" />
+
+
 <br class="cb" />
 
 
@@ -37,13 +44,6 @@ dabei die mit meinem Kreditinstitut vereinbarten Bedingungen
 
 <label for="bic" class="row2" >BIC</label>
 <input id="bic" name="bic" type="text" class="row2" />
-
-<label for="plz" class="row2" >PLZ</label>
-<input id="plz" name="plz" type="text" class="row2" />  
-
-<label for="ort" class="row2" >Ort</label>
-<input id="ort" name="ort" type="text" class="row2" />  
-
 
 <br class="cb" />
 
