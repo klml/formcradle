@@ -23,7 +23,10 @@ And add URL to form: [?form=](https://klml.github.io/formcradle/?form=).
 
 ## QR Code
 
-With the additional hash parameter `&fcqr=` (default `true`) you can swoitch the QR Code on prints.
+The QR Codes represents the formscradle URL.
+With the additional hash parameter `&fcqr=` (default `true`) you can switch the QR Code on prints.
+
+
 
 ## Examplesforms
 
