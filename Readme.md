@@ -26,6 +26,10 @@ And add URL to form: [?form=](https://klml.github.io/formcradle/?form=).
 The QR Codes represents the formscradle URL.
 With the additional hash parameter `&fcqr=` (default `true`) you can switch the QR Code on prints.
 
+### security problem
+
+There is no guarantee, the printed QR code represents the values from the printed form.
+You can print the form with a value and manipulate the QR code with another value.
 
 
 ## Examplesforms
