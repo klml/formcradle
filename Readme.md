@@ -5,14 +5,19 @@
 
 [ancient german Volksmund](//aphorismen.de/zitat/72791) for _from cradle to bier, forms, forms!_
 
-__formcradle__ is a online tool to fill in common forms (terminations, NDAs, etc) and print it local or as pdf.
+Everybody [hates](//www.addletters.com/pictures/bart-simpson-generator/bart-simpson-generator.php?line=Mein+IBAN+ist+DE271007777702092997002092997) to copy IBANs.
+Interactive PDF-forms are great, but they often dont't work.
+You should only have to enter data once and then they should be able to get copied it whenever needed.
+
+With __formcradle__ enables you to just type in your data and then send it, print it and scan it.
+
+[Example](//klml.github.io/formcradle/?form=forms/sepamandate_de.md#glaeubiger_adress=Max%20Mustermann&ci=1234567&mndtid=PE456787&glaeubiger=Muster%20AG&kdnr=987654321&schuldner=Erika%20Mustermann%20&adress=Hauptstr%201&plz=12345&ort=Musterstadt&iban=DE27100777770209299700&bic=MARKDEFF&ort_an_sub=Musterstadt&datum_an=&fcqr=true&wiederholende=mehrmal)
+
+formcradle is a online tool to fill in common forms (terminations, NDAs, etc) and print it local or as pdf.
 Or send values as key-values url with updated fragment identifier (`#hash`) via mail.
 Or scan the printed QR code, even on [desktops](//www.the-qrcode-generator.com/scan) and get the filled form again in your browser.
 
-[Example](//klml.github.io/formcradle/?form=forms/nda_de.md#ag=Example%20AG&an=Max%20Muster&stra%C3%9Fe_an=Fakestreet%20123&plz_an=12345&ort_an=Musterstadt&verteten=Maximilian%20Mustermann&auftrag=Rollout%20Formularcenter&gericht=Berlin&ort_ag=M%C3%BCnchen&datum_ag=&ort_an_sub=Berlin&datum_an=2018-02-22
-)
-
-## Forms
+## create forms
 
 * use markdown
 * use em (`__Word__`) as placeholder
