@@ -15,7 +15,7 @@ With __formcradle__ enables you to just type in your data and then send it, prin
 
 formcradle is a online tool to fill in common forms (terminations, NDAs, etc) and print it local or as pdf.
 Or send values as key-values url with updated fragment identifier (`#hash`) via mail.
-Or scan the printed QR code, even on [desktops](//www.the-qrcode-generator.com/scan) and get the filled form again in your browser.
+Or scan the printed QR code (mobile [BinaryEye](https://github.com/markusfisch/BinaryEye)), even on [desktops](//www.the-qrcode-generator.com/scan) and get the filled form again in your browser.
 
 ## create forms
 
