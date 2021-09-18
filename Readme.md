@@ -19,7 +19,7 @@ Or scan the printed QR code (mobile [BinaryEye](https://github.com/markusfisch/B
 
 ## create forms
 
-* use markdown
+* use markdown, even with images (for logos ect)
 * use em (`__Word__`) as placeholder
 * add plain HTML inputs with name like placeholders `name="word"` in lowercase.
 * set short id inputs
