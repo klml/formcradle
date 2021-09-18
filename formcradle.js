@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
             // prepareForm ;
             $("#content").html( Markdown(data) );
             hashsplit();
-            updateHash( );
+            updateHash();
             markEmWithText()
             setQRcodeinput2italic();
 
