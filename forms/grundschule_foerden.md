@@ -2,8 +2,8 @@
 ihr Kind: <input id="kind" name="kind" type="text" />
 
 Ich möchte Ihr Kind gerne von Anfang an so fordern, wie es für Ihr Kind am besten ist.
-Dafür wäre es hilfreich, wenn Sie mir Stärken und Schwächen Ihres Kindes beschreiben, auf die ich Ihrer Meinung nach bei der Wahl der Sitzordnung‚ während des Unterrichts oder bei erzieherischen Maßnahmen achten sollte. Danke!
-Beispiele: Sehfehler, Hörfehler, Allergien, besondere familiäre Verhältnisse, Deutschkenntnisse, bisherige Schulerfahrungen, besondere Charaktereigenschaften, Linkshändigkeit, Beidhändigkeit ...)
+Dafür wäre es hilfreich, wenn Sie mir Stärken und Schwächen Ihres Kindes beschreiben, auf die ich Ihrer Meinung nach bei der Wahl der Sitzordnung‚ während des Unterrichts oder bei erzieherischen Maßnahmen achten sollte. Danke!  
+(Beispiele: Sehfehler, Hörfehler, Allergien, besondere familiäre Verhältnisse, Deutschkenntnisse, bisherige Schulerfahrungen, besondere Charaktereigenschaften, Linkshändigkeit, Beidhändigkeit ...)
 
 <textarea>
 </textarea>
