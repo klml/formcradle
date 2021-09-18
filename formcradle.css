@@ -1,5 +1,5 @@
 body { font:normal 18px Arial, Helvetica; color:#444; background-color: #ccc ;margin: 0; padding: 0; outline: none;line-height:1.6;}
-.panel {margin:5px auto;padding:0 10px;max-width:950px;}
+.panel {margin:5px auto;padding: 10px;max-width:950px;background-color: #fafafa ;}
 .paneloutbreak { display: flex; align-items: center; justify-content: center; }
 
 /* content */
@@ -36,6 +36,7 @@ input[type='text'],
 input[type='email'],
 input[type='tel'] {
     width: 200px;  
+    border-bottom: 1px solid #ccc;
 }
 select {
     background: transparent;
