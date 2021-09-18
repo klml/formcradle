@@ -5,8 +5,7 @@ function markEmWithText () {
     });
 };
 
-function setQRcodeinput2italic() {
-
+function input2italic() {
     // change content of em with given values form inputs
     $("input").each( function () {
         inputvalue = $(this).val();
@@ -15,8 +14,8 @@ function setQRcodeinput2italic() {
             if ( inputvalue != "") $(this).text( inputvalue )
         });
     });
-
-    // set QR Code
+};
+function setQRcode() {
     document.getElementById("qrcodeurl").innerHTML = "" ;
     if( $('#fcqr').prop('checked') ) {
         var qrcode = new QRCode(document.getElementById("qrcodeurl"), {
@@ -43,7 +42,8 @@ jQuery(document).ready(function() {
             hashsplit();
             updateHash();
             markEmWithText()
-            setQRcodeinput2italic();
+            input2italic();
+            setQRcode();
 
         }).fail(function() {
             alert( formcradleform + " is not available" );
@@ -51,4 +51,5 @@ jQuery(document).ready(function() {
     }
 
 });
-window.onhashchange = setQRcodeinput2italic ;
+window.onhashchange = input2italic ;
+window.onhashchange = setQRcode ;
